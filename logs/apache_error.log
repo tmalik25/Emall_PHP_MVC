@@ -1,0 +1,295 @@
+[Wed Jan 14 12:46:03.975959 2015] [mpm_winnt:notice] [pid 10168:tid 536] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Wed Jan 14 12:46:03.975959 2015] [mpm_winnt:notice] [pid 10168:tid 536] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Wed Jan 14 12:46:03.975959 2015] [core:notice] [pid 10168:tid 536] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Wed Jan 14 12:46:03.991588 2015] [mpm_winnt:notice] [pid 10168:tid 536] AH00418: Parent: Created child process 8012
+[Wed Jan 14 12:46:05.463920 2015] [mpm_winnt:notice] [pid 8012:tid 456] AH00354: Child: Starting 64 worker threads.
+[Fri Jan 16 14:57:35.896801 2015] [mpm_winnt:notice] [pid 10168:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 16 14:57:37.928247 2015] [mpm_winnt:notice] [pid 8012:tid 456] AH00364: Child: All worker threads have exited.
+[Fri Jan 16 14:57:38.600286 2015] [mpm_winnt:notice] [pid 10168:tid 536] AH00430: Parent: Child process 8012 exited successfully.
+[Tue Jan 20 18:38:12.058014 2015] [mpm_winnt:notice] [pid 2880:tid 528] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Tue Jan 20 18:38:12.083342 2015] [mpm_winnt:notice] [pid 2880:tid 528] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Tue Jan 20 18:38:12.083342 2015] [core:notice] [pid 2880:tid 528] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Tue Jan 20 18:38:12.095329 2015] [mpm_winnt:notice] [pid 2880:tid 528] AH00418: Parent: Created child process 6792
+[Tue Jan 20 18:38:13.556500 2015] [mpm_winnt:notice] [pid 6792:tid 456] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 21 11:59:16.559878 2015] [:error] [pid 6792:tid 952] [client ::1:60427] script 'C:/wamp/www/info.php' not found or unable to stat
+[Wed Jan 21 15:31:55.165638 2015] [mpm_winnt:notice] [pid 2880:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 21 15:31:57.167303 2015] [mpm_winnt:notice] [pid 6792:tid 456] AH00364: Child: All worker threads have exited.
+[Wed Jan 21 15:31:57.352952 2015] [mpm_winnt:notice] [pid 2880:tid 528] AH00430: Parent: Child process 6792 exited successfully.
+[Wed Jan 21 15:32:01.111628 2015] [mpm_winnt:notice] [pid 9864:tid 564] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Wed Jan 21 15:32:01.112629 2015] [mpm_winnt:notice] [pid 9864:tid 564] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Wed Jan 21 15:32:01.112629 2015] [core:notice] [pid 9864:tid 564] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Wed Jan 21 15:32:01.143651 2015] [mpm_winnt:notice] [pid 9864:tid 564] AH00418: Parent: Created child process 1572
+[Wed Jan 21 15:32:03.157079 2015] [mpm_winnt:notice] [pid 1572:tid 492] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 21 19:45:09.362505 2015] [:error] [pid 1572:tid 972] [client ::1:63802] script 'C:/wamp/www/assignment/min_and_max.php' not found or unable to stat
+[Thu Jan 22 18:08:31.882796 2015] [:error] [pid 1572:tid 972] [client ::1:50746] script 'C:/wamp/www/assignment/adv/action.php' not found or unable to stat, referer: http://localhost:81/assignment/adv/counter.php
+[Thu Jan 22 18:08:55.002629 2015] [:error] [pid 1572:tid 972] [client ::1:50751] script 'C:/wamp/www/assignment/adv/action.php' not found or unable to stat, referer: http://localhost:81/assignment/adv/counter.php
+[Thu Jan 22 21:39:28.917158 2015] [:error] [pid 1572:tid 964] [client ::1:56800] script 'C:/wamp/www/assignment/adv/index.php' not found or unable to stat, referer: http://localhost:81/assignment/adv/number.php
+[Thu Jan 22 21:40:04.607198 2015] [:error] [pid 1572:tid 964] [client ::1:56805] script 'C:/wamp/www/assignment/adv/index.php' not found or unable to stat, referer: http://localhost:81/assignment/adv/number.php
+[Fri Jan 23 14:49:55.036299 2015] [authz_core:error] [pid 1572:tid 964] [client ::1:51677] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Fri Jan 23 14:49:55.036299 2015] [authz_core:error] [pid 1572:tid 972] [client ::1:51678] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Fri Jan 23 14:49:55.041303 2015] [authz_core:error] [pid 1572:tid 952] [client ::1:51681] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Fri Jan 23 14:49:55.041303 2015] [authz_core:error] [pid 1572:tid 948] [client ::1:51682] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Fri Jan 23 14:49:55.042303 2015] [authz_core:error] [pid 1572:tid 940] [client ::1:51683] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Fri Jan 23 14:49:58.294289 2015] [authz_core:error] [pid 1572:tid 940] [client ::1:51683] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Fri Jan 23 14:49:58.294289 2015] [authz_core:error] [pid 1572:tid 948] [client ::1:51682] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Fri Jan 23 14:49:58.295289 2015] [authz_core:error] [pid 1572:tid 952] [client ::1:51681] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sat Jan 24 17:23:42.415321 2015] [authz_core:error] [pid 1572:tid 948] [client ::1:60744] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sat Jan 24 17:23:42.415321 2015] [authz_core:error] [pid 1572:tid 964] [client ::1:60745] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sat Jan 24 17:23:42.423320 2015] [authz_core:error] [pid 1572:tid 964] [client ::1:60745] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 10:10:28.659745 2015] [core:warn] [pid 7488:tid 440] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 25 10:10:30.964383 2015] [mpm_winnt:notice] [pid 7488:tid 440] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sun Jan 25 10:10:30.964383 2015] [mpm_winnt:notice] [pid 7488:tid 440] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sun Jan 25 10:10:30.964383 2015] [core:notice] [pid 7488:tid 440] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sun Jan 25 10:10:30.977391 2015] [mpm_winnt:notice] [pid 7488:tid 440] AH00418: Parent: Created child process 2084
+[Sun Jan 25 10:10:35.140198 2015] [mpm_winnt:notice] [pid 2084:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 25 10:10:37.705189 2015] [mpm_winnt:notice] [pid 7488:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 25 10:10:39.706821 2015] [mpm_winnt:notice] [pid 2084:tid 452] AH00364: Child: All worker threads have exited.
+[Sun Jan 25 10:10:39.738837 2015] [mpm_winnt:notice] [pid 7488:tid 440] AH00430: Parent: Child process 2084 exited successfully.
+[Sun Jan 25 10:10:48.413240 2015] [mpm_winnt:notice] [pid 7308:tid 544] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sun Jan 25 10:10:48.414242 2015] [mpm_winnt:notice] [pid 7308:tid 544] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sun Jan 25 10:10:48.414242 2015] [core:notice] [pid 7308:tid 544] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sun Jan 25 10:10:48.425249 2015] [mpm_winnt:notice] [pid 7308:tid 544] AH00418: Parent: Created child process 5384
+[Sun Jan 25 10:10:49.834250 2015] [mpm_winnt:notice] [pid 5384:tid 468] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 25 11:23:44.704798 2015] [authz_core:error] [pid 5384:tid 960] [client ::1:50456] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Sun Jan 25 11:23:44.706799 2015] [authz_core:error] [pid 5384:tid 952] [client ::1:50457] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Sun Jan 25 11:23:44.716805 2015] [authz_core:error] [pid 5384:tid 948] [client ::1:50458] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Sun Jan 25 11:23:44.717807 2015] [authz_core:error] [pid 5384:tid 936] [client ::1:50459] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Sun Jan 25 11:23:44.725812 2015] [authz_core:error] [pid 5384:tid 928] [client ::1:50460] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Sun Jan 25 11:23:48.807584 2015] [authz_core:error] [pid 5384:tid 928] [client ::1:50460] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 11:23:48.809588 2015] [authz_core:error] [pid 5384:tid 936] [client ::1:50459] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 11:23:48.810588 2015] [authz_core:error] [pid 5384:tid 948] [client ::1:50458] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 11:23:48.812588 2015] [authz_core:error] [pid 5384:tid 952] [client ::1:50457] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 11:38:46.346834 2015] [authz_core:error] [pid 5384:tid 928] [client ::1:50540] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 11:38:46.354839 2015] [authz_core:error] [pid 5384:tid 960] [client ::1:50541] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 11:38:46.355839 2015] [authz_core:error] [pid 5384:tid 920] [client ::1:50543] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 11:38:46.355839 2015] [authz_core:error] [pid 5384:tid 948] [client ::1:50542] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/phpwithsql/
+[Sun Jan 25 16:48:19.685955 2015] [mpm_winnt:notice] [pid 7308:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 25 16:48:49.687234 2015] [mpm_winnt:notice] [pid 7308:tid 544] AH00431: Parent: Forcing termination of child process 5384
+[Sun Jan 25 16:49:14.385849 2015] [mpm_winnt:notice] [pid 7528:tid 532] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sun Jan 25 16:49:14.386849 2015] [mpm_winnt:notice] [pid 7528:tid 532] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sun Jan 25 16:49:14.386849 2015] [core:notice] [pid 7528:tid 532] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sun Jan 25 16:49:14.402862 2015] [mpm_winnt:notice] [pid 7528:tid 532] AH00418: Parent: Created child process 5592
+[Sun Jan 25 16:49:15.849918 2015] [mpm_winnt:notice] [pid 5592:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 25 19:09:52.024722 2015] [mpm_winnt:notice] [pid 7528:tid 532] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 25 19:09:54.026348 2015] [mpm_winnt:notice] [pid 5592:tid 480] AH00364: Child: All worker threads have exited.
+[Sun Jan 25 19:09:54.068349 2015] [mpm_winnt:notice] [pid 7528:tid 532] AH00430: Parent: Child process 5592 exited successfully.
+[Sun Jan 25 19:28:40.428258 2015] [mpm_winnt:notice] [pid 8024:tid 524] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sun Jan 25 19:28:40.428258 2015] [mpm_winnt:notice] [pid 8024:tid 524] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sun Jan 25 19:28:40.428258 2015] [core:notice] [pid 8024:tid 524] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sun Jan 25 19:28:40.441262 2015] [mpm_winnt:notice] [pid 8024:tid 524] AH00418: Parent: Created child process 5200
+[Sun Jan 25 19:28:41.851365 2015] [mpm_winnt:notice] [pid 5200:tid 448] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 26 18:03:31.592826 2015] [authz_core:error] [pid 5200:tid 960] [client ::1:60549] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Mon Jan 26 18:03:31.607836 2015] [authz_core:error] [pid 5200:tid 960] [client ::1:60549] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Mon Jan 26 18:03:31.608838 2015] [authz_core:error] [pid 5200:tid 952] [client ::1:60550] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Mon Jan 26 18:03:31.638859 2015] [authz_core:error] [pid 5200:tid 948] [client ::1:60551] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Mon Jan 26 18:03:31.641861 2015] [authz_core:error] [pid 5200:tid 936] [client ::1:60552] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Mon Jan 26 18:03:34.228427 2015] [authz_core:error] [pid 5200:tid 936] [client ::1:60552] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Mon Jan 26 18:03:34.243437 2015] [authz_core:error] [pid 5200:tid 936] [client ::1:60552] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Mon Jan 26 18:03:34.243437 2015] [authz_core:error] [pid 5200:tid 948] [client ::1:60551] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 13:27:27.198937 2015] [core:warn] [pid 9796:tid 432] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 28 13:27:27.655261 2015] [mpm_winnt:notice] [pid 9796:tid 432] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Wed Jan 28 13:27:27.655261 2015] [mpm_winnt:notice] [pid 9796:tid 432] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Wed Jan 28 13:27:27.655261 2015] [core:notice] [pid 9796:tid 432] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Wed Jan 28 13:27:27.666269 2015] [mpm_winnt:notice] [pid 9796:tid 432] AH00418: Parent: Created child process 7220
+[Wed Jan 28 13:27:28.653974 2015] [mpm_winnt:notice] [pid 7220:tid 452] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 28 14:04:17.015700 2015] [authz_core:error] [pid 7220:tid 952] [client ::1:49426] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Wed Jan 28 14:04:17.017702 2015] [authz_core:error] [pid 7220:tid 960] [client ::1:49427] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Wed Jan 28 14:04:17.027708 2015] [authz_core:error] [pid 7220:tid 960] [client ::1:49427] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Wed Jan 28 14:04:17.028709 2015] [authz_core:error] [pid 7220:tid 952] [client ::1:49426] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Wed Jan 28 14:04:17.029709 2015] [authz_core:error] [pid 7220:tid 936] [client ::1:49428] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/
+[Wed Jan 28 14:04:21.187991 2015] [authz_core:error] [pid 7220:tid 936] [client ::1:49428] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 14:04:21.194997 2015] [authz_core:error] [pid 7220:tid 952] [client ::1:49426] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 14:04:21.196998 2015] [authz_core:error] [pid 7220:tid 936] [client ::1:49428] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 14:04:21.199000 2015] [authz_core:error] [pid 7220:tid 960] [client ::1:49427] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 15:24:10.495014 2015] [mpm_winnt:notice] [pid 9796:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 28 15:24:12.497639 2015] [mpm_winnt:notice] [pid 7220:tid 452] AH00364: Child: All worker threads have exited.
+[Wed Jan 28 15:24:12.550128 2015] [mpm_winnt:notice] [pid 9796:tid 432] AH00430: Parent: Child process 7220 exited successfully.
+[Wed Jan 28 15:24:15.310218 2015] [mpm_winnt:notice] [pid 8676:tid 568] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Wed Jan 28 15:24:15.311218 2015] [mpm_winnt:notice] [pid 8676:tid 568] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Wed Jan 28 15:24:15.311218 2015] [core:notice] [pid 8676:tid 568] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Wed Jan 28 15:24:15.325227 2015] [mpm_winnt:notice] [pid 8676:tid 568] AH00418: Parent: Created child process 9508
+[Wed Jan 28 15:24:16.716215 2015] [mpm_winnt:notice] [pid 9508:tid 448] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 28 16:27:35.466262 2015] [authz_core:error] [pid 9508:tid 968] [client ::1:50526] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 16:27:35.474264 2015] [authz_core:error] [pid 9508:tid 960] [client ::1:50527] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 16:27:35.476266 2015] [authz_core:error] [pid 9508:tid 968] [client ::1:50526] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 16:27:35.476266 2015] [authz_core:error] [pid 9508:tid 952] [client ::1:50528] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost:81/assignment/php_oop/
+[Wed Jan 28 19:43:30.191398 2015] [mpm_winnt:notice] [pid 8676:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 28 19:43:32.193992 2015] [mpm_winnt:notice] [pid 9508:tid 448] AH00364: Child: All worker threads have exited.
+[Wed Jan 28 19:43:32.322027 2015] [mpm_winnt:notice] [pid 8676:tid 568] AH00430: Parent: Child process 9508 exited successfully.
+[Wed Jan 28 19:43:46.518677 2015] [mpm_winnt:notice] [pid 9424:tid 544] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Wed Jan 28 19:43:46.518677 2015] [mpm_winnt:notice] [pid 9424:tid 544] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Wed Jan 28 19:43:46.518677 2015] [core:notice] [pid 9424:tid 544] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Wed Jan 28 19:43:46.533688 2015] [mpm_winnt:notice] [pid 9424:tid 544] AH00418: Parent: Created child process 10104
+[Wed Jan 28 19:43:48.200341 2015] [mpm_winnt:notice] [pid 10104:tid 452] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 29 17:13:59.280931 2015] [mpm_winnt:notice] [pid 9424:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 29 17:14:01.287658 2015] [mpm_winnt:notice] [pid 10104:tid 452] AH00364: Child: All worker threads have exited.
+[Thu Jan 29 17:14:01.359636 2015] [mpm_winnt:notice] [pid 9424:tid 544] AH00430: Parent: Child process 10104 exited successfully.
+[Thu Jan 29 17:14:05.462944 2015] [mpm_winnt:notice] [pid 5544:tid 604] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Thu Jan 29 17:14:05.462944 2015] [mpm_winnt:notice] [pid 5544:tid 604] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Thu Jan 29 17:14:05.462944 2015] [core:notice] [pid 5544:tid 604] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Thu Jan 29 17:14:05.474947 2015] [mpm_winnt:notice] [pid 5544:tid 604] AH00418: Parent: Created child process 8920
+[Thu Jan 29 17:14:06.843259 2015] [mpm_winnt:notice] [pid 8920:tid 440] AH00354: Child: Starting 64 worker threads.
+Not a JPEG file: starts with 0x89 0x50
+[Mon Feb 02 10:21:24.388864 2015] [mpm_winnt:notice] [pid 5544:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 02 10:21:26.391283 2015] [mpm_winnt:notice] [pid 8920:tid 440] AH00364: Child: All worker threads have exited.
+[Mon Feb 02 10:21:26.463858 2015] [mpm_winnt:notice] [pid 5544:tid 604] AH00430: Parent: Child process 8920 exited successfully.
+[Mon Feb 02 10:21:32.646529 2015] [mpm_winnt:notice] [pid 12604:tid 536] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon Feb 02 10:21:32.647527 2015] [mpm_winnt:notice] [pid 12604:tid 536] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon Feb 02 10:21:32.647527 2015] [core:notice] [pid 12604:tid 536] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon Feb 02 10:21:32.663533 2015] [mpm_winnt:notice] [pid 12604:tid 536] AH00418: Parent: Created child process 9344
+[Mon Feb 02 10:21:34.341309 2015] [mpm_winnt:notice] [pid 9344:tid 452] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 03 15:00:49.126438 2015] [mpm_winnt:notice] [pid 12604:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 03 15:00:51.129213 2015] [mpm_winnt:notice] [pid 9344:tid 452] AH00364: Child: All worker threads have exited.
+[Tue Feb 03 15:00:51.175242 2015] [mpm_winnt:notice] [pid 12604:tid 536] AH00430: Parent: Child process 9344 exited successfully.
+[Tue Feb 03 15:00:56.988164 2015] [mpm_winnt:notice] [pid 10288:tid 548] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Tue Feb 03 15:00:56.988665 2015] [mpm_winnt:notice] [pid 10288:tid 548] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Tue Feb 03 15:00:56.988665 2015] [core:notice] [pid 10288:tid 548] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Tue Feb 03 15:00:57.010681 2015] [mpm_winnt:notice] [pid 10288:tid 548] AH00418: Parent: Created child process 15104
+[Tue Feb 03 15:00:58.604579 2015] [mpm_winnt:notice] [pid 15104:tid 444] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 05 09:30:12.698504 2015] [core:warn] [pid 6656:tid 460] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 05 09:30:13.564118 2015] [mpm_winnt:notice] [pid 6656:tid 460] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Thu Feb 05 09:30:13.564118 2015] [mpm_winnt:notice] [pid 6656:tid 460] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Thu Feb 05 09:30:13.565120 2015] [core:notice] [pid 6656:tid 460] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Thu Feb 05 09:30:13.570122 2015] [mpm_winnt:notice] [pid 6656:tid 460] AH00418: Parent: Created child process 6352
+[Thu Feb 05 09:30:15.068186 2015] [mpm_winnt:notice] [pid 6352:tid 372] AH00354: Child: Starting 64 worker threads.
+[Fri Feb 06 15:19:55.645676 2015] [mpm_winnt:notice] [pid 6656:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Feb 06 15:19:57.658511 2015] [mpm_winnt:notice] [pid 6352:tid 372] AH00364: Child: All worker threads have exited.
+[Fri Feb 06 15:20:03.095305 2015] [mpm_winnt:notice] [pid 6656:tid 460] AH00430: Parent: Child process 6352 exited successfully.
+[Fri Feb 06 15:20:21.178926 2015] [mpm_winnt:notice] [pid 10080:tid 532] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri Feb 06 15:20:21.178926 2015] [mpm_winnt:notice] [pid 10080:tid 532] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri Feb 06 15:20:21.178926 2015] [core:notice] [pid 10080:tid 532] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri Feb 06 15:20:21.190926 2015] [mpm_winnt:notice] [pid 10080:tid 532] AH00418: Parent: Created child process 6984
+[Fri Feb 06 15:20:22.623395 2015] [mpm_winnt:notice] [pid 6984:tid 4] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 08 15:59:08.244052 2015] [core:warn] [pid 8852:tid 416] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 08 15:59:08.773308 2015] [mpm_winnt:notice] [pid 8852:tid 416] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sun Feb 08 15:59:08.773308 2015] [mpm_winnt:notice] [pid 8852:tid 416] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sun Feb 08 15:59:08.773308 2015] [core:notice] [pid 8852:tid 416] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sun Feb 08 15:59:08.788319 2015] [mpm_winnt:notice] [pid 8852:tid 416] AH00418: Parent: Created child process 8464
+[Sun Feb 08 15:59:10.241348 2015] [mpm_winnt:notice] [pid 8464:tid 444] AH00354: Child: Starting 64 worker threads.
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+[Mon Feb 09 19:11:08.734367 2015] [mpm_winnt:notice] [pid 8464:tid 444] AH00364: Child: All worker threads have exited.
+[Mon Feb 09 19:11:15.262654 2015] [mpm_winnt:notice] [pid 8852:tid 416] AH00430: Parent: Child process 8464 exited successfully.
+[Mon Feb 09 19:27:53.859052 2015] [mpm_winnt:notice] [pid 4608:tid 528] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon Feb 09 19:27:53.860052 2015] [mpm_winnt:notice] [pid 4608:tid 528] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon Feb 09 19:27:53.860052 2015] [core:notice] [pid 4608:tid 528] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon Feb 09 19:27:53.883068 2015] [mpm_winnt:notice] [pid 4608:tid 528] AH00418: Parent: Created child process 9668
+[Mon Feb 09 19:27:55.519945 2015] [mpm_winnt:notice] [pid 9668:tid 452] AH00354: Child: Starting 64 worker threads.
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+[Mon Feb 09 19:36:33.945874 2015] [mpm_winnt:notice] [pid 4608:tid 528] AH00431: Parent: Forcing termination of child process 9668
+[Mon Feb 09 19:36:59.764899 2015] [mpm_winnt:notice] [pid 11992:tid 552] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon Feb 09 19:36:59.764899 2015] [mpm_winnt:notice] [pid 11992:tid 552] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon Feb 09 19:36:59.764899 2015] [core:notice] [pid 11992:tid 552] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon Feb 09 19:36:59.778909 2015] [mpm_winnt:notice] [pid 11992:tid 552] AH00418: Parent: Created child process 12000
+[Mon Feb 09 19:37:01.150904 2015] [mpm_winnt:notice] [pid 12000:tid 468] AH00354: Child: Starting 64 worker threads.
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+[Mon Feb 09 19:52:35.659352 2015] [mpm_winnt:notice] [pid 11992:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 09 19:52:37.674719 2015] [mpm_winnt:notice] [pid 12000:tid 468] AH00364: Child: All worker threads have exited.
+[Mon Feb 09 19:52:37.705993 2015] [mpm_winnt:notice] [pid 11992:tid 552] AH00430: Parent: Child process 12000 exited successfully.
+[Mon Feb 09 19:57:42.388680 2015] [mpm_winnt:notice] [pid 3140:tid 544] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon Feb 09 19:57:42.388680 2015] [mpm_winnt:notice] [pid 3140:tid 544] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon Feb 09 19:57:42.388680 2015] [core:notice] [pid 3140:tid 544] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon Feb 09 19:57:42.402073 2015] [mpm_winnt:notice] [pid 3140:tid 544] AH00418: Parent: Created child process 8072
+[Mon Feb 09 19:57:43.873633 2015] [mpm_winnt:notice] [pid 8072:tid 500] AH00354: Child: Starting 64 worker threads.
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+[Mon Feb 09 20:19:22.619229 2015] [mpm_winnt:notice] [pid 3140:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 09 20:19:24.620818 2015] [mpm_winnt:notice] [pid 8072:tid 500] AH00364: Child: All worker threads have exited.
+[Mon Feb 09 20:19:24.671855 2015] [mpm_winnt:notice] [pid 3140:tid 544] AH00430: Parent: Child process 8072 exited successfully.
+[Mon Feb 09 20:19:26.063844 2015] [mpm_winnt:notice] [pid 6296:tid 528] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon Feb 09 20:19:26.063844 2015] [mpm_winnt:notice] [pid 6296:tid 528] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon Feb 09 20:19:26.063844 2015] [core:notice] [pid 6296:tid 528] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon Feb 09 20:19:26.074853 2015] [mpm_winnt:notice] [pid 6296:tid 528] AH00418: Parent: Created child process 2884
+[Mon Feb 09 20:19:27.379002 2015] [mpm_winnt:notice] [pid 2884:tid 444] AH00354: Child: Starting 64 worker threads.
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 213
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 198
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 198
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 131596288 bytes) in C:\wamp\www\application\views\ecommerce_v1\admin_index.php on line 198
+[Tue Feb 10 02:55:46.631736 2015] [mpm_winnt:notice] [pid 6296:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 10 02:55:48.634753 2015] [mpm_winnt:notice] [pid 2884:tid 444] AH00364: Child: All worker threads have exited.
+[Tue Feb 10 02:55:48.695768 2015] [mpm_winnt:notice] [pid 6296:tid 528] AH00430: Parent: Child process 2884 exited successfully.
+[Tue Feb 10 02:55:50.788887 2015] [mpm_winnt:notice] [pid 2792:tid 556] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Tue Feb 10 02:55:50.789892 2015] [mpm_winnt:notice] [pid 2792:tid 556] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Tue Feb 10 02:55:50.789892 2015] [core:notice] [pid 2792:tid 556] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Tue Feb 10 02:55:50.804895 2015] [mpm_winnt:notice] [pid 2792:tid 556] AH00418: Parent: Created child process 7708
+[Tue Feb 10 02:55:52.323244 2015] [mpm_winnt:notice] [pid 7708:tid 476] AH00354: Child: Starting 64 worker threads.
